@@ -1,4 +1,4 @@
-# Mexico National Accounts
+# Forecasting Mexico National Accounts
 ### Task
 This project studies three crisis episodes in Mexico:
 - The Mexican Peso Crisis of 1994
@@ -12,6 +12,8 @@ The question for each crisis is whether it produces a permanent decline in the M
 ### Findings
 - The Mexican Peso Crisis produced a *temporary* decline in the economy
 - The Global Financial Crisis and Covid-19 crisis produced a *permanent* decline in the economy
+
+![blah](./fig/gfc_arima.png)
 
 ### Data
 - Quarterly National Accounts - [OECD Main Economic Indicators](https://www.oecd.org/sdd/oecdmaineconomicindicatorsmei.htm)
