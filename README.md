@@ -13,10 +13,11 @@ Further, I study the increase in interest rates observed during the Mexican Peso
 
 ### Findings
 - The Mexican Peso Crisis produced a *temporary* decline in the economy
+![blah](./fig/mpc_regression.png)
 - The Global Financial Crisis and Covid-19 crisis produced a *permanent* decline in the economy
+![blah](./fig/gfc_arima.png)
 - The Mexican Peso Crisis featured a significant increase in interest rates, whereas the global financial crisis featured a decrease.
 
-![blah](./fig/gfc_arima.png)
 ![blah](./fig/nominal_rates.png)
 
 ### Data
