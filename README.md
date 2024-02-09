@@ -5,18 +5,25 @@ This project studies three crisis episodes in Mexico:
 - The Global Financial Crisis of 2008
 - The Covid-19 Crisis
 
-This project studies whether each crisis produced a permanent decline in the Mexican economy belows its trend. I estimate the trend using two methods:
+This project studies whether each crisis produced a permanent decline in the Mexican economy below its (pre-crisis) trend. I estimate the trend using two methods:
 - Linear regression
 - ARIMA forecasting
 
 Further, I study the increase in interest rates observed during the Mexican Peso Crisis.
+
+### Notebooks
+| Notebook                                              | Description                                                       |
+| ----------------------------------------------------- | ----------------------------------------------------------------- |
+| [Interest Rates](./notebooks/01_interest_rates.ipynb) | Clean and normalize interest rate data.                           |
+| [Forecasting](./notebooks/02_forecasting.ipynb)       | Develop regression and ARIMA forecasts of national accounts data. |
+| [IMF IFS](./notebooks/02_imf_ifs.ipynb)               | Clean quarterly IMF data.                                         |
 
 ### Findings
 - The Mexican Peso Crisis produced a *temporary* decline in the economy
 ![blah](./fig/mpc_regression.png)
 - The Global Financial Crisis and Covid-19 crisis produced a *permanent* decline in the economy
 ![blah](./fig/gfc_arima.png)
-- The Mexican Peso Crisis featured a significant increase in interest rates, whereas the global financial crisis featured a decrease.
+- The Mexican Peso Crisis featured a significant *increase* in interest rates, whereas the global financial crisis featured a *decrease*.
 
 ![blah](./fig/nominal_rates.png)
 
